@@ -1,7 +1,7 @@
 
 import java.util.Iterator;
 
-public class Balancete {
+public class BalanceteClientes {
 
     public static Integer contarClientePresentePizzaria(Pizzaria pizzaria) {
         int quantidade = 0;
