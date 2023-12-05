@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class BalanceteTest {
+class BalanceteClientesTest {
 
     @Test
     void deveContarClientesPresentesPizzaria() {
@@ -14,7 +14,7 @@ class BalanceteTest {
                 new Cliente("Maria", true),
                 new Cliente("Filipe", true)
         );
-        assertEquals(3, Balancete.contarClientePresentePizzaria(pizzaria));
+        assertEquals(3, BalanceteClientes.contarClientePresentePizzaria(pizzaria));
     }
 
     @Test
@@ -26,6 +26,6 @@ class BalanceteTest {
                 new Cliente("Maria", true),
                 new Cliente("Filipe", true)
         );
-        assertEquals(5, Balancete.contarTotalClientesPizzaria(pizzaria));
+        assertEquals(5, BalanceteClientes.contarTotalClientesPizzaria(pizzaria));
     }
 }

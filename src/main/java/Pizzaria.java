@@ -3,11 +3,11 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class Lanchonete implements Iterable<Cliente>{
+public class Pizzaria implements Iterable<Cliente>{
 
     private List<Cliente> clientes = new ArrayList<Cliente>();
 
-    public Lanchonete(Cliente... clientes) {
+    public Pizzaria(Cliente... clientes) {
         this.clientes = Arrays.asList(clientes);
     }
 
