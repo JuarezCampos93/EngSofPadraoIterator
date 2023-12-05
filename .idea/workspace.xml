@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08db96d9-6673-4afb-821c-c94c0cb3e438" name="Changes" comment="">
+    <list default="true" id="08db96d9-6673-4afb-821c-c94c0cb3e438" name="Changes" comment="ERROJDKATT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BalanceteClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BalanceteClientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pizzaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pizzaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BalanceteClientesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BalanceteClientesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +32,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BalanceteClientesTest.deveRetornarZeroParaPizzariaVazia">
     <configuration name="BalanceteClientesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EngSofPadraoIterator" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,8 +48,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BalanceteClientesTest.deveRetornarZeroParaPizzariaVazia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EngSofPadraoIterator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BalanceteClientesTest" />
+      <option name="METHOD_NAME" value="deveRetornarZeroParaPizzariaVazia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalanceteClientesTest.deveRetornarZeroParaPizzariaVazia" />
         <item itemvalue="JUnit.BalanceteClientesTest" />
       </list>
     </recent_temporary>
@@ -63,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1700776612422</updated>
     </task>
+    <task id="LOCAL-00001" summary="ERROJDKATT">
+      <created>1701779480590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701779480590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ERROJDKATT" />
+    <option name="LAST_COMMIT_MESSAGE" value="ERROJDKATT" />
   </component>
 </project>

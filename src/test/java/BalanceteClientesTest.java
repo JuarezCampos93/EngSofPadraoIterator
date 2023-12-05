@@ -28,4 +28,11 @@ class BalanceteClientesTest {
         );
         assertEquals(5, BalanceteClientes.contarTotalClientesPizzaria(pizzaria));
     }
+
+    @Test
+    void deveRetornarZeroParaPizzariaVazia() {
+        Pizzaria pizzariaVazia = new Pizzaria();
+        assertEquals(0, BalanceteClientes.contarClientePresentePizzaria(pizzariaVazia));
+        assertEquals(0, BalanceteClientes.contarTotalClientesPizzaria(pizzariaVazia));
+    }
 }
